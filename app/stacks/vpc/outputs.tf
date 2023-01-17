@@ -1,1 +1,4 @@
-# This is where you put your outputs declaration
+output "subnet_id" {
+    value = module.subnet.id
+  
+}

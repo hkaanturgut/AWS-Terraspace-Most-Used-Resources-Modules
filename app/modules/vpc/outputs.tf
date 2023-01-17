@@ -1,1 +1,4 @@
-# This is where you put your outputs declaration
+output "id" {
+    value = aws_vpc.vpc.id
+  
+}
