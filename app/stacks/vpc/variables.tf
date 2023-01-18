@@ -22,14 +22,14 @@ variable "subnet_tags" {
   
 }
 
-#Subnet2
-variable "subnet2_cidr_block" {
-    type = string
+# #Subnet2
+# variable "subnet2_cidr_block" {
+#     type = string
   
-}
-variable "subnet2_tags" {
-    type = map(any)
+# }
+# variable "subnet2_tags" {
+#     type = map(any)
   
-}
+# }
 
 

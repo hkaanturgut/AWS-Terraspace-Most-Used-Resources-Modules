@@ -11,8 +11,8 @@ subnet_tags={
     Name = "Subnet1"
   }
 
-  # Subnet2
-subnet2_cidr_block="10.0.1.0/18"
-subnet2_tags={
-    Name = "Subnet2"
-  }
+#   # Subnet2
+# subnet2_cidr_block="10.0.1.0/18"
+# subnet2_tags={
+#     Name = "Subnet2"
+#   }
