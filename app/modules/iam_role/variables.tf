@@ -1,4 +1,4 @@
-variable "iam_for_lambda_name" {
+variable "iam_role_name" {
     type = string
   
 }
