@@ -10,10 +10,10 @@ variable "load_balancer_type" {
     type = string
   
 }
-# variable "app_lb_subnets" {
-#     type = set(string)
+variable "app_lb_subnets" {
+    type = set(string)
   
-# }
+}
 variable "enable_deletion_protection" {
     type = bool
   
