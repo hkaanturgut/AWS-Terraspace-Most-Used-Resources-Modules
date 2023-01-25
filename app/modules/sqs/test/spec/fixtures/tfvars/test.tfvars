@@ -1,4 +1,3 @@
-
 sqs_name                    = "deop-test-queue"
 delay_seconds               = 90
 max_message_size            = 2048
