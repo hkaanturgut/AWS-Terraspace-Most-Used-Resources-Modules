@@ -4,7 +4,7 @@ variable "glacier_vault_name" {
   
 }
 variable "sns_topic" {
-    type = any
+    type = string
   
 }
 variable "events" {
