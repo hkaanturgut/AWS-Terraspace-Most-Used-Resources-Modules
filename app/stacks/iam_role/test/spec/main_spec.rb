@@ -3,19 +3,19 @@ describe "main" do
     stack_path = File.expand_path("../..", __dir__) # the source of the stack to test is 2 levels up
     ts_root = File.expand_path("../../..", stack_path) # original Terraspace.root
     # Build terraspace project to use as a test harness
-    # Will be located at: /tmp/terraspace/test-harnesses/s3_bucket-harness
+    # Will be located at: /tmp/terraspace/test-harnesses/iam_role-harness
     terraspace.build_test_harness(
-      name:    "s3_bucket-harness",
+      name:    "iam_role-harness",
       modules: "#{ts_root}/app/modules", # include all modules in folder
-      stacks:  {s3_bucket: stack_path},
+      stacks:  {iam_role: stack_path},
       # override demo stack tfvars for testing
       config:  "#{stack_path}/test/spec/fixtures/config",
-      # tfvars:  {demo: "#{stack_path}/test/spec/fixtures/tfvars/test.tfvars"},
+      tfvars:  {iam_role: "#{stack_path}/test/spec/fixtures/tfvars/test.tfvars"},
     )
-    terraspace.up("s3_bucket")
+    terraspace.up("iam_role")
   end
   after(:all) do
-    terraspace.down("s3_bucket")
+    terraspace.down("iam_role")
   end
 
   it "successful deploy" do
@@ -23,7 +23,7 @@ describe "main" do
     expect(true).to be true
     # Example
     # pp terraspace.outputs
-    output_value = terraspace.output("s3_bucket", "bucket_name")
+    output_value = terraspace.output("iam_role", "bucket_name")
     puts "output_value #{output_value}"
     # More useful helpers:
     # pp terraspace.state['resources']
