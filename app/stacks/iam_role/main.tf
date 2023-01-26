@@ -5,7 +5,7 @@ module "iam_role" {
   
 }
 
-module "eks_iam_role_policy" {
+module "iam_role_policy" {
     source = "../../modules/iam_role_policy"
     policy_arn=var.policy_arn
     role=module.iam_role.name

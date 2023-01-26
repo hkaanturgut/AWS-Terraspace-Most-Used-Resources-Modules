@@ -1,1 +1,4 @@
-# This is where you put your outputs declaration
+output "role_arn" {
+    value = module.iam_role.arn
+  
+}
