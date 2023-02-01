@@ -1,13 +1,13 @@
 variable "glacier_vault_name" {
-    type = string
+  type = string
 
-  
+
 }
 variable "sns_topic" {
-    type = string
-  
+  type = string
+
 }
 variable "events" {
-    type = list(string)
-  
+  type = list(string)
+
 }

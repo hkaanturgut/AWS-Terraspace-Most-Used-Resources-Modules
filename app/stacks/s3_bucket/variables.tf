@@ -1,9 +1,9 @@
 variable "bucket" {
-    type = string
-  
+  type = string
+
 }
 variable "tags" {
-    type = map
-  
+  type = map(any)
+
 }
 

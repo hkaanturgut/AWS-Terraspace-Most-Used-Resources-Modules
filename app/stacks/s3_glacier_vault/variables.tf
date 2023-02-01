@@ -1,16 +1,16 @@
 #SNS TOPIC
 variable "sns_topic_name" {
-    type = string
-  
+  type = string
+
 }
 
 # GLACIER VAULT
 variable "glacier_vault_name" {
-    type = string
+  type = string
 
-  
+
 }
 variable "events" {
-    type = list(string)
-  
+  type = list(string)
+
 }

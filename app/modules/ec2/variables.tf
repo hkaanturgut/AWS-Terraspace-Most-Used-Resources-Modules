@@ -1,12 +1,12 @@
 variable "ami" {
-    type = any
+  type = any
 
-  
+
 }
 variable "instance_type" {
-    type = string
-  
+  type = string
+
 }
 variable "tags" {
-    type = map(any)
+  type = map(any)
 }

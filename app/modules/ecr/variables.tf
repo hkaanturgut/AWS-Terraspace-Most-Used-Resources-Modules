@@ -1,12 +1,12 @@
 variable "ecr_name" {
-    type = string
-  
+  type = string
+
 }
 variable "image_tag_mutability" {
-    type = string
-  
+  type = string
+
 }
 variable "scan_on_push" {
-    type = bool
-  
+  type = bool
+
 }

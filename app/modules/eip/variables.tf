@@ -1,8 +1,8 @@
 variable "vpc" {
-    type = bool
-  
+  type = bool
+
 }
 variable "public_ipv4_pool" {
-    type = string
-  
+  type = string
+
 }
