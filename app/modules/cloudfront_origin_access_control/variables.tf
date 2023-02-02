@@ -1,28 +1,28 @@
 variable "origin_access_control_name" {
-    type = string
-  
+  type = string
+
 }
 
 variable "origin_access_control_description" {
-    type = string
-  
+  type = string
+
 }
 variable "origin_access_control_origin_type" {
-    type = string
-  
+  type = string
+
 }
 variable "signing_behavior" {
-    type = string
-  
+  type = string
+
 }
 variable "signing_protocol" {
-    type = string
-  
+  type = string
+
 }
 variable "query_string" {
-    type = bool
-  
+  type = bool
+
 }
 variable "forward" {
-  type=string
+  type = string
 }

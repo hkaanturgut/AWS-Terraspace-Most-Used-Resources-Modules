@@ -1,37 +1,37 @@
 # LAUNCH TEMPLATE
 
 variable "name_prefix" {
-    type = string
-  
+  type = string
+
 }
 variable "image_id" {
-    type = string
-  
+  type = string
+
 }
 variable "instance_type" {
-    type = string
-  
+  type = string
+
 }
 
 # AUTO SCALING GROUP
 
 variable "availability_zones" {
-    type = list(string)
-  
+  type = list(string)
+
 }
 variable "desired_capacity" {
-    type = number
-  
+  type = number
+
 }
 variable "max_size" {
-    type= number
-  
+  type = number
+
 }
 variable "min_size" {
-    type = number
-  
+  type = number
+
 }
 variable "launch_template_version" {
-    type = string
-  
+  type = string
+
 }

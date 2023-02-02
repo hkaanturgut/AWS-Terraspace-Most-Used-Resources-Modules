@@ -5,7 +5,7 @@ resource "aws_cloudfront_distribution" "cloudfront_s3_distribution" {
     origin_id                = var.origin_id
   }
 
-  enabled             = var.enabled
+  enabled = var.enabled
 
 
   default_cache_behavior {
@@ -17,7 +17,7 @@ resource "aws_cloudfront_distribution" "cloudfront_s3_distribution" {
       query_string = var.query_string
 
       cookies {
-        forward =var.forward
+        forward = var.forward
       }
     }
     viewer_protocol_policy = var.viewer_protocol_policy
@@ -26,7 +26,7 @@ resource "aws_cloudfront_distribution" "cloudfront_s3_distribution" {
     max_ttl                = var.max_ttl
   }
 
-  
+
 
   restrictions {
     geo_restriction {

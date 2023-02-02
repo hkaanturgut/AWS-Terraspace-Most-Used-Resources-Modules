@@ -1,38 +1,38 @@
 variable "dynamodb_table_name" {
-    type = string
-  
+  type = string
+
 }
 variable "hash_key" {
-    type = string
-  
+  type = string
+
 }
 variable "billing_mode" {
-    type = string
-  
+  type = string
+
 }
 variable "stream_enabled" {
-    type = bool
-  
+  type = bool
+
 }
 variable "stream_view_type" {
-    type = string
-  
-}
+  type = string
 
+}
+#attribute
 variable "attribute_name" {
-    type = string
-  
+  type = string
+
 }
 variable "attribute_type" {
-    type = string
-  
-}
+  type = string
 
+}
+#replica
 variable "region_name1" {
-    type = string
-  
+  type = string
+
 }
 variable "region_name2" {
-    type = string
-  
+  type = string
+
 }

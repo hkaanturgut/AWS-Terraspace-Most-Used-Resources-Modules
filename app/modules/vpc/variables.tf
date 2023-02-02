@@ -1,12 +1,12 @@
 variable "cidr_block" {
-    type = string
-  
+  type = string
+
 }
 variable "instance_tenancy" {
-    type = string
-  
+  type = string
+
 }
 variable "tags" {
-    type = map(any)
-  
+  type = map(any)
+
 }

@@ -1,4 +1,4 @@
 variable "ses_email" {
-    type = string
-  
+  type = string
+
 }

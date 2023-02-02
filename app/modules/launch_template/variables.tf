@@ -1,12 +1,12 @@
 variable "name_prefix" {
-    type = string
-  
+  type = string
+
 }
 variable "image_id" {
-    type = string
-  
+  type = string
+
 }
 variable "instance_type" {
-    type = string
-  
+  type = string
+
 }

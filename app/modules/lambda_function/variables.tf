@@ -1,25 +1,25 @@
 variable "filename" {
-    type = string
-  
+  type = string
+
 }
 variable "function_name" {
-    type = string
-  
+  type = string
+
 }
 variable "role" {
-    type = any
-  
+  type = any
+
 }
 variable "handler" {
-    type = string
-  
+  type = string
+
 }
 variable "source_code_hash" {
-    type = any
-  
+  type = any
+
 }
 variable "runtime" {
-    type = string
-  
+  type = string
+
 }
 

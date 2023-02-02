@@ -1,24 +1,24 @@
 variable "availability_zones" {
-    type = list(string)
-  
+  type = list(string)
+
 }
 variable "desired_capacity" {
-    type = number
-  
+  type = number
+
 }
 variable "max_size" {
-    type= number
-  
+  type = number
+
 }
 variable "min_size" {
-    type = number
-  
+  type = number
+
 }
 variable "launch_template_id" {
-    type = any
-  
+  type = any
+
 }
 variable "launch_template_version" {
-    type = string
-  
+  type = string
+
 }

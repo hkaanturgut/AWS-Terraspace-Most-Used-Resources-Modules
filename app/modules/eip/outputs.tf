@@ -1,4 +1,4 @@
 output "id" {
-    value = aws_eip.byoip-ip.id
-  
+  value = aws_eip.byoip-ip.id
+
 }

@@ -1,24 +1,24 @@
 variable "app_lb_name" {
-    type = string
-  
+  type = string
+
 }
 variable "internal" {
-    type = bool
-  
+  type = bool
+
 }
 variable "load_balancer_type" {
-    type = string
-  
+  type = string
+
 }
 variable "app_lb_subnets" {
-    type = set(string)
-  
+  type = set(string)
+
 }
 variable "enable_deletion_protection" {
-    type = bool
-  
+  type = bool
+
 }
 variable "app_lb_tags" {
-    type = map(any)
-  
+  type = map(any)
+
 }
