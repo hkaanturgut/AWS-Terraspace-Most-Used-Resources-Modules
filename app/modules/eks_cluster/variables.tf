@@ -1,12 +1,12 @@
 variable "eks_cluster_name" {
-    type = string
-  
+  type = string
+
 }
 variable "eks_cluster_role_arn" {
-    type = any
-  
+  type = any
+
 }
 variable "subnet_ids" {
-    type = set(string)
-  
+  type = set(string)
+
 }

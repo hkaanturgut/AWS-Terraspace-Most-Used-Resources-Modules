@@ -1,86 +1,86 @@
 #S3 BUCKET
 variable "bucket" {
-    type = string
-  
+  type = string
+
 }
 variable "tags" {
-    type = map
-  
+  type = map(any)
+
 }
 
 
 # Origin Access Control
 
 variable "origin_access_control_name" {
-    type = string
-  
+  type = string
+
 }
 
 variable "origin_access_control_description" {
-    type = string
-  
+  type = string
+
 }
 variable "origin_access_control_origin_type" {
-    type = string
-  
+  type = string
+
 }
 variable "signing_behavior" {
-    type = string
-  
+  type = string
+
 }
 variable "signing_protocol" {
-    type = string
-  
+  type = string
+
 }
 variable "query_string" {
-    type = bool
-  
+  type = bool
+
 }
 variable "forward" {
-  type=string
+  type = string
 }
 
 # CLOUDFRONT
 
 variable "enabled" {
-    type = bool
-  
+  type = bool
+
 }
 variable "allowed_methods" {
-    type = list(string)
-  
+  type = list(string)
+
 }
 variable "cached_methods" {
-    type = list(string)
-  
+  type = list(string)
+
 }
 
 variable "viewer_protocol_policy" {
-    type = string
-  
+  type = string
+
 }
 variable "min_ttl" {
-    type = number
-  
+  type = number
+
 }
 variable "default_ttl" {
-    type = number
-  
+  type = number
+
 }
 variable "max_ttl" {
-    type = number
-  
+  type = number
+
 }
 
 variable "restriction_type" {
-    type = string
-  
+  type = string
+
 }
 variable "geo_restriction_locations" {
-    type = list(string)
-  
+  type = list(string)
+
 }
 variable "cloudfront_default_certificate" {
-    type = bool
-  
+  type = bool
+
 }

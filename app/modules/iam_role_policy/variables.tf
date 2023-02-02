@@ -1,8 +1,8 @@
 variable "policy_arn" {
-    type = string
-  
+  type = string
+
 }
 variable "role" {
-    type = any
-  
+  type = any
+
 }

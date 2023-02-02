@@ -1,40 +1,40 @@
 variable "alarm_name" {
-    type = string
-  
+  type = string
+
 }
 variable "comparison_operator" {
-    type = string
-  
+  type = string
+
 }
 variable "evaluation_periods" {
-    type = string
-  
+  type = string
+
 }
 variable "metric_name" {
-    type = string
-  
+  type = string
+
 }
 variable "namespace" {
-    type = string
-  
+  type = string
+
 }
 variable "period" {
-    type = string
-  
+  type = string
+
 }
 variable "statistic" {
-    type = string
-  
+  type = string
+
 }
 variable "threshold" {
-    type = string
-  
+  type = string
+
 }
 variable "alarm_description" {
-    type = string
-  
+  type = string
+
 }
 variable "insufficient_data_actions" {
-    type = any
-  
+  type = any
+
 }
